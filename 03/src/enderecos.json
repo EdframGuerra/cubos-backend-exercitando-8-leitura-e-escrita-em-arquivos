@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "cep": "41256-250",
+        "logradouro": "Rua Jornalista Luiz Eduardo Lobo",
+        "complemento": "",
+        "bairro": "Vale dos Lagos",
+        "localidade": "Salvador",
+        "uf": "BA",
+        "ibge": "2927408",
+        "gia": "",
+        "ddd": "71",
+        "siafi": "3849"
+    },
+    {
+        "cep": "40140-310",
+        "logradouro": "Rua Eduardo Diniz Gonçalves",
+        "complemento": "",
+        "bairro": "Barra",
+        "localidade": "Salvador",
+        "uf": "BA",
+        "ibge": "2927408",
+        "gia": "",
+        "ddd": "71",
+        "siafi": "3849"
+    }
+]
