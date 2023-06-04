@@ -1,6 +1,7 @@
 const express = require('express');
+const { getStateFromZipcode } = require('utils-playground');
 
-const rotas = require('./rotas/rotas');
+const rotas = require('./rotas/rotas')
 
 const app = express();
 

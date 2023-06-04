@@ -1,5 +1,3 @@
-// 1º PASSO: CRIAR O BANCO DE DADOS:
-// 2º PASSO: EXPORTAR O BANCO DE DADOS:
 module.exports = [
     { id: 1, nome: 'Teclado mecânico Keychron K2', valor: 100000 },
     { id: 2, nome: "TV Samsung 4K", valor: 129900 },

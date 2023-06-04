@@ -1,7 +1,5 @@
-// 1º PASSO: IMPORTAR BANCO DE DADOS 
 const { listarPokemons, detalharPokemon } = require('utils-playground')
 
-//2º PASSO: CRIAR A FUNÇÃO QUE SERÁ EXECUTADA NA ROTA E APÓS,  IMPLEMENTAR NO CÓDIGO DE EXECUÇÃO EM ROTAS NO NOME DA FUNÇÃO NO 6º PASSO:
 const listaDePokemons = async (req, res) => {
     const { pagina } = req.query;
 
@@ -12,7 +10,6 @@ const listaDePokemons = async (req, res) => {
     } catch (error) {
         return res.status(500).json({ mensagem: error.messagem });
     }
-
 }
 
 const filtrarPokemon = async (req, res) => {
@@ -29,8 +26,6 @@ const filtrarPokemon = async (req, res) => {
     }
 }
 
-
-// 3º PASSO: EXPORTAR A FUNÇÃO/CONTROLADOR
 module.exports = {
     listaDePokemons,
     filtrarPokemon
